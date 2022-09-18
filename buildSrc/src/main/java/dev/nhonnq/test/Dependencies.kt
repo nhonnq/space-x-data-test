@@ -62,4 +62,11 @@ object Dependencies {
     const val junitExtensionsKtx = "androidx.test.ext:junit-ktx:${Versions.junitExtensionsVersion}"
     const val espressoCore = "androidx.test.espresso:espresso-core:${Versions.espressoCoreVersion}"
 
+    // Unit Test with runner, mock, robolectric, dagger hilt
+    const val runner = "androidx.test:runner:${Versions.runnerVersion}"
+    const val mockWebServer = "com.squareup.okhttp3:mockwebserver:${Versions.mockWebServerVersion}"
+    const val mockitoCore = "org.mockito:mockito-core:${Versions.mockitoCoreVersion}"
+    const val robolectric = "org.robolectric:robolectric:${Versions.robolectricVersion}"
+    const val hiltAndroidTesting = "com.google.dagger:hilt-android-testing:${Versions.hiltAndroidTestingVersion}"
+
 }

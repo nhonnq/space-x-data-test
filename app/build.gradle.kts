@@ -29,7 +29,7 @@ android {
         renderscriptSupportModeEnabled = true
         multiDexEnabled = true
 
-        testInstrumentationRunner = Configs.testInstrumentationRunner
+        testInstrumentationRunner = "dev.nhonnq.test.HiltTestRunner"
 
     }
 
@@ -116,6 +116,10 @@ kapt {
     correctErrorTypes = true
 }
 
+hilt {
+    enableTransformForLocalTests = true
+}
+
 dependencies {
     // Appcompat
     implementation(Dependencies.appcompat)
@@ -170,4 +174,15 @@ dependencies {
     testImplementation(Dependencies.coroutinesTest)
     androidTestImplementation(Dependencies.junitExtensions)
     androidTestImplementation(Dependencies.espressoCore)
+    implementation(Dependencies.runner)
+
+    // Mock test - fake data, fake server ...etc
+    testImplementation(Dependencies.mockWebServer)
+    testImplementation(Dependencies.mockitoCore)
+    //testImplementation("androidx.arch.core:core-testing:2.1.0")
+
+    // Unit test with Dagger Hilt - make everything simple and easier to implement
+    testImplementation(Dependencies.robolectric)
+    testImplementation(Dependencies.hiltAndroidTesting)
+    kaptTest(Dependencies.daggerHiltCompiler)
 }
