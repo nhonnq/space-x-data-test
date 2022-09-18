@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">SpaceXData Test</string>
+
+    <!--  Errors  -->
+    <string name="error_title">Error</string>
+    <string name="oops_title">Oops!</string>
+    <string name="no_internet_title">No internet connection</string>
+    <string name="slow_internet_title">Slow internet</string>
+    <string name="common_error_msg">Something went wrong. Please try again in a bit.</string>
+    <string name="no_internet_connection_msg">No internet connection. Please try again!</string>
+    <string name="slow_internet_msg">Your internet connection appears to be offline or too weak. Please try again later.</string>
+    <string name="error_permission_denied">Permissions denied.</string>
+    <string name="no_internet_msg">Please check your internet connection</string>
+    <string name="network_error">Network error, could get data,please try again!</string>
+
+    <!--  Common  -->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="refresh">Refresh</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="no_data_found_here">No data found here</string>
+    <string name="spacex_upcoming">SpaceX Upcoming Data (Demo)</string>
+    <string name="search_flight_name">Search flight name</string>
+
+</resources>
