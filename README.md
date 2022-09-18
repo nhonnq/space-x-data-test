@@ -1,6 +1,7 @@
 # Android Test Sample App
 
 ### This repository contains a detailed sample app that implements MVVM architecture with Jetpack
+- You can find the release apk at `ApkRelease/app-release.apk`
 
 ### API Sample at SpaceX
 - SpaceXData Github: https://github.com/r-spacex/SpaceX-API
